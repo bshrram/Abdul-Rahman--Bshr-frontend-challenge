@@ -8,7 +8,6 @@ import DOM_DATA from '../data/dom.json';
 const App = () => {
   const [boxData, setBoxData] = useState({})
   const display = (data) => {
-    console.log(data)
     return setBoxData(data)
   }
   return (
